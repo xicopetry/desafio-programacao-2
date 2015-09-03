@@ -23,7 +23,7 @@ Sua aplicação web DEVE:
 1. Aceitar (via um formulário) o upload de arquivos no formato JSON com as seguintes informações: <i>city_code</i>, <i>city_name</i>, <i>state</i>.
 2. Interpretar ("parsear") o arquivo recebido, normalizar os dados e salvar corretamente a informação em um banco de dados relacional.
 3. Exibir ao final a quantidade de cidades que foram cadastras após o upload do arquivo.
-4. Criar API REST para consulta das cidades, podendo ser filtradas por estado, nome da cidade e/ou código.
+4. Criar uma API REST para consulta das cidades, podendo ser filtradas por estado, nome da cidade e/ou código.
 5. Ser escrita obrigatoriamente em Ruby 1.9+ ou Python 2.6+ (caso esteja entrevistando para uma vaga específica, utilize a linguagem solicitada pela vaga).
 6. Ser simples de configurar e rodar, funcionando em ambiente compatível com Unix (Linux ou Mac OS X). Ela deve utilizar apenas linguagens e bibliotecas livres ou gratuitas.
 
